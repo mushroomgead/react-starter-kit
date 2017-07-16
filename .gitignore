@@ -1,2 +1,4 @@
-node_modules/
-dist/
+# depandencies
+node_modules
+
+dist
