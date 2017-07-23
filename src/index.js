@@ -1,12 +1,19 @@
-import _ from 'lodash';
-import './style.scss';
+// import _ from 'lodash';
+// import './style.scss';
+// import App from './App.jsx';
+//
+// function component() {
+//   var element = document.createElement('div');
+//
+//   element.innerHTML = _.join(['Hello', 'webpack'], '');
+//
+//   return element;
+// }
+//
+// document.body.appendChild(component());
 
-function component() {
-  var element = document.createElement('div');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
 
-  element.innerHTML = _.join(['Hello', 'webpack'], '');
-
-  return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(<App />, document.getElementById('root'));
