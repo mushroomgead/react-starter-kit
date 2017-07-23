@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+
+class Loader extends Component {
+  render() {
+    return (
+      <div className="loader-container">
+        <div className="loader">
+          <div className="dot dot1"></div>
+          <div className="dot dot2"></div>
+          <div className="dot dot3"></div>
+          <div className="dot dot4"></div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Loader;
