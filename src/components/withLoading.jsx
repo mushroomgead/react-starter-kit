@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Loader from './Loader.jsx';
+import Loader from './Loader';
 
 const withLoading = (propName) => (WrappedComponent) => {
   return class ComponentWithLoading extends Component {
