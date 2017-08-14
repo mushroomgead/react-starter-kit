@@ -8,7 +8,8 @@ module.exports = {
   },
   devServer: {
     port: 9000,
-    overlay: true
+    overlay: true,
+    historyApiFallback: true
   },
   module: {
     rules: [
